@@ -12,6 +12,7 @@ javac cccat.java
 ```
 
 - Step 1
+  
 In this step your goal is to open the file specified on the command line and write its contents to standard out. That should look something like this (I’m assuming you call your program cccat:
 
 ```
