@@ -17,7 +17,7 @@ In this step your goal is to open the file specified on the command line and wri
 ```
 java cccat test.txt
 ```
-
+```
 "Life isn’t about getting and having, it’s about giving and being."
 "Whatever the mind of man can conceive and believe, it can achieve."
 "Strive not to be a success, but rather to be of value."
@@ -28,7 +28,7 @@ java cccat test.txt
 "The most difficult thing is the decision to act, the rest is merely tenacity."
 "Every strike brings me closer to the next home run."
 "Definiteness of purpose is the starting point of all achievement."
-
+```
 
 #Step 2
 
@@ -46,7 +46,7 @@ In this step your goal is to concatenate files. You can test  program like this:
 ```
 java cccat test.txt test2.txt
 ```
-
+```
 "Life isn’t about getting and having, it’s about giving and being."
 "Whatever the mind of man can conceive and believe, it can achieve."
 "Strive not to be a success, but rather to be of value."
@@ -67,3 +67,4 @@ java cccat test.txt test2.txt
 "The best time to plant a tree was 20 years ago. The second best time is now."
 "An unexamined life is not worth living."
 "Eighty percent of success is showing up."
+```
