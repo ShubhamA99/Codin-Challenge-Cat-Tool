@@ -1,17 +1,17 @@
 # Coding-Challenge-Cat-Tool
 
-#get Dummy Data
+- get Dummy Data
 ```
 % curl "https://dummyjson.com/quotes?limit=10" | jq '.quotes | .[] | .quote' > test.txt
 % curl "https://dummyjson.com/quotes?limit=10&skip=10" | jq '.quotes | .[] | .quote' > test2.txt
 ```
 
--Build the Main File
+- Build the Main File
 ```
 javac cccat.java
 ```
 
-#Step 1
+- Step 1
 In this step your goal is to open the file specified on the command line and write its contents to standard out. That should look something like this (I’m assuming you call your program cccat:
 
 ```
@@ -30,7 +30,7 @@ java cccat test.txt
 "Definiteness of purpose is the starting point of all achievement."
 ```
 
-#Step 2
+- Step 2
 
 In this step your goal is to read the input from from standard in, you can test it like this:
 
@@ -40,7 +40,7 @@ In this step your goal is to read the input from from standard in, you can test 
 "Life isn’t about getting and having, it’s about giving and being."
 
 
-#Step 3
+- Step 3
 
 In this step your goal is to concatenate files. You can test  program like this:
 ```
